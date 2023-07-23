@@ -1,3 +1,8 @@
+.title {
+  margin: auto;
+  width: 650px;
+  text-align: center;
+}
 .conteiner {
   border: 1px solid #000;
   box-shadow: 12px 10px 20px rgb(19, 15, 231);
@@ -31,7 +36,7 @@
 .navCont {
   border: 1px solid #000;
   display: flex;
-  margin: 12px auto;
+  margin: 12px auto 0px;
   gap: 13px;
   width: 180px;
   height: 50px;
@@ -42,4 +47,28 @@
 }
 .result {
   margin: auto;
+}
+
+.clueBlock {
+  /* border: 1px solid #000; */
+  height: 80px;
+  width: 250px;
+  margin: 12px auto 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.clueText {
+  display: none;
+
+  width: 130px;
+  height: 70px;
+  text-align: center;
+}
+
+.clueBtn {
+  display: block;
+}
+.clue {
 }

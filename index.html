@@ -8,12 +8,27 @@
     <title>слон</title>
   </head>
   <body>
+    <div class="title">
+      <h1>Угадай слово</h1>
+      <p>
+        Введите по одной букве, если в загаданном слове такая есть то она
+        отабразится
+      </p>
+    </div>
     <div class="conteiner">
       <div class="timer"><p class="timeOut">2:00</p></div>
-      <div class="inputWin"><input class="inputIn" type="text" /></div>
+      <div class="inputWin">
+        <input class="inputIn" placeholder="Введите букву" type="text" />
+      </div>
       <div class="navCont">
         <div style="letter-spacing: 5px" class="result"></div>
-        <button class="btnIn" type="submit" title="поменять слово">🗘</button>
+        <button class="btnIn" type="submit" title="обновить слово">🗘</button>
+      </div>
+      <div class="clueBlock">
+        <div class="clueText"></div>
+        <div class="clueBtn">
+          <button class="clue" title="уменьшается на 30 сек">подсказка</button>
+        </div>
       </div>
     </div>
 
